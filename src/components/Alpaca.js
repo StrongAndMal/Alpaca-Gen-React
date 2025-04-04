@@ -89,7 +89,7 @@ const Alpaca = () => {
             <div
               className="alpaca-part background"
               style={{
-                backgroundImage: `url('/backgrounds/${alpacaState.background}.png')`,
+                backgroundImage: `url('${process.env.PUBLIC_URL}/backgrounds/${alpacaState.background}.png')`,
               }}
             />
           )}
@@ -98,7 +98,7 @@ const Alpaca = () => {
             <div
               className="alpaca-part neck"
               style={{
-                backgroundImage: `url('/neck/${alpacaState.neck}.png')`,
+                backgroundImage: `url('${process.env.PUBLIC_URL}/neck/${alpacaState.neck}.png')`,
               }}
             />
           )}
@@ -106,7 +106,7 @@ const Alpaca = () => {
           <div
             className="alpaca-part nose"
             style={{
-              backgroundImage: "url('/nose.png')",
+              backgroundImage: `url('${process.env.PUBLIC_URL}/nose.png')`,
             }}
           />
           {/* Leg - always visible */}
@@ -114,7 +114,7 @@ const Alpaca = () => {
             <div
               className="alpaca-part leg"
               style={{
-                backgroundImage: `url('/leg/${alpacaState.leg}.png')`,
+                backgroundImage: `url('${process.env.PUBLIC_URL}/leg/${alpacaState.leg}.png')`,
               }}
             />
           )}
@@ -131,7 +131,7 @@ const Alpaca = () => {
                 key={`${partName}-${variation}`}
                 className={`alpaca-part ${partName}`}
                 style={{
-                  backgroundImage: `url('/${partName}/${variation}.png')`,
+                  backgroundImage: `url('${process.env.PUBLIC_URL}/${partName}/${variation}.png')`,
                 }}
               />
             );
