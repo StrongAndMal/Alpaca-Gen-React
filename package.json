@@ -2,7 +2,7 @@
   "name": "alpaca-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/StrongAndMal/Alpaca-Gen-React",
+  "homepage": "https://strongandmal.github.io/Alpaca-Gen-React",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
