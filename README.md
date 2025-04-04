@@ -2,6 +2,10 @@
 
 A modern, responsive React application for creating customizable alpaca avatars. Built with React and styled with CSS.
 
+## Version
+
+Current Version: 1.0.0
+
 ## Features
 
 - Customizable alpaca parts (eyes, mouth, hair, accessories, legs, neck, and background)
